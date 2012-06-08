@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 # script to extract archive files in Linux
 
 if [ -z $1 ]; then
@@ -19,7 +19,9 @@ else
 		*.tar)
 			tar -vxf $1;;
 		*.tar.xz)
-			 tar -vxf $1;;
+			tar -vxf $1;;
+		*.gz)
+			gzip -d $1;; 
 		*)
 			echo "Sorry I can't. :-("
 	esac		
