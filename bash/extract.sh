@@ -21,6 +21,6 @@ else
 		*.tar.xz)
 			 tar -vxf $1;;
 		*)
-			echo "Sorry I cannot extract $1. :-("
+			echo "Sorry I can't. :-("
 	esac		
 fi
