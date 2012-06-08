@@ -21,7 +21,9 @@ else
 		*.tar.xz)
 			tar -vxf $1;;
 		*.gz)
-			gzip -d $1;; 
+			gzip -d $1;;
+		*.rar)
+			unrar x $1;; 
 		*)
 			echo "Sorry I can't. :-("
 	esac		
