@@ -15,7 +15,7 @@ else
 		*.tar.bz2)
 			tar -jxvf $1;;
 		*.tbz2)
-			tar -jxf $1;;
+			tar -jxvf $1;;
 		*.tar)
 			tar -vxf $1;;
 		*.tar.xz)
