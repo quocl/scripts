@@ -19,3 +19,5 @@ alias gst='git status'
 
 # general
 alias rs='reset'
+alias ..='cd ..'
+alias ...='cd ../../'
