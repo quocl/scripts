@@ -1,3 +1,4 @@
+# Copy this file to $HOME/.bash_aliases
 
 # git
 alias gp='git push'
