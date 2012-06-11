@@ -19,5 +19,6 @@ alias gst='git status'
 
 # general
 alias rs='reset'
+alias shutdown='sudo shutdown -h now'
 alias ..='cd ..'
 alias ...='cd ../../'
