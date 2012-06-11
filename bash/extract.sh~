@@ -1,6 +1,6 @@
 #!/bin/bash
 # script to extract archive files in Linux
-function extract {
+function extr {
 	if [ -z $1 ]; then
 	echo "No file to extract"
 		echo "Usage: $0 FILE_TO_EXTRACT"
@@ -30,4 +30,5 @@ function extract {
 	fi
 }
 
+extr
 
